@@ -1,0 +1,37 @@
+{
+  "name": "@fnando/server-reload",
+  "version": "0.1.0",
+  "bin": {
+    "server-reload": "./bin/node.js",
+    "server-reload-babel": "./bin/babel.js"
+  },
+  "description": "Reload server files using a combination of Node's cluster and Facebook's watchman.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nando Vieira",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "1.1.3",
+    "commander": "2.9.0",
+    "fb-watchman": "2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fnando/node-server-reload.git"
+  },
+  "keywords": [
+    "reload",
+    "cluster",
+    "watchman",
+    "development"
+  ],
+  "bugs": {
+    "url": "https://github.com/fnando/node-server-reload/issues"
+  },
+  "homepage": "https://github.com/fnando/node-server-reload#readme"
+}
