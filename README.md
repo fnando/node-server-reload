@@ -4,7 +4,7 @@ Reload server files using a combination of Node's [cluster](https://nodejs.org/a
 
 ## Installation
 
-First, make sure you have [watchman](https://facebook.github.io/watchman/) install and available on your `$PATH`. For instructions about how to install, [check the official guide](https://facebook.github.io/watchman/docs/install.html).
+First, make sure you have [watchman](https://facebook.github.io/watchman/) installed and available on your `$PATH`. For instructions about how to install, [check the official guide](https://facebook.github.io/watchman/docs/install.html).
 
 Install using NPM:
 
